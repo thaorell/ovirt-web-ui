@@ -11,10 +11,12 @@
   flex-wrap: wrap;
   margin-right: -20px;
   margin-left: -20px;
+  white-space: pre-line;
 }
 
 .grid-column { /* bootstrap4 .col & .col-md */
   position: relative;
+  word-wrap: break-word;
   width: 100%;
   min-height: 1px;
   padding-right: 20px;

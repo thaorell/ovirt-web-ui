@@ -3,6 +3,7 @@
   margin-left: -20px;
   margin-right: -20px;
   margin-bottom: 0;
+  display: block;
 
   padding: 0 10px;
 
@@ -13,6 +14,7 @@
 .utilization-card .chart-card :global(.card-pf-body) {
   padding-bottom: 0;
   flex-grow: 1;
+  display: block;
 
   display: flex;
   flex-direction: column;

@@ -75,6 +75,7 @@
 /* ---> BaseCard styles */
 .base-card {
   display: flex;
+  min-width: 400px;
   flex-direction: column;
 }
 

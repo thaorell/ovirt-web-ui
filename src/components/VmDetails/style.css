@@ -75,7 +75,6 @@
 /* ---> BaseCard styles */
 .base-card {
   display: flex;
-  min-width: 400px;
   flex-direction: column;
 }
 
@@ -108,5 +107,9 @@ div.base-card.cell-card {
 @media only screen and (max-width: 600px) {
   .grid-column{
     min-width: 100%;
+  }
+  [class*="col-"]{ /*smaller margins for mobile*/
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

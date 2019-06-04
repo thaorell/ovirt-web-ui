@@ -21,3 +21,7 @@
 .console-toolbar-actions {
   display: flex;
 }
+
+.toolbar :global(.toolbar-pf-action-right) {
+  float: right
+}

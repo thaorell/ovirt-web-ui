@@ -25,10 +25,42 @@
 .ip4-container,
 .ip6-container {
   font-size: 10px;
-  padding: 0 10px;
+  padding: 0 5px;
+  word-wrap: break-word;
 }
 .ip6-container {
   padding-left: 0;
+}
+
+@media only screen and (max-width: 1000px){
+  .ip4-container, .ip6-container {
+    min-width: 100%;
+    padding-left: 0;
+  }
+
+  .nics-column-container {
+    padding: 0 10px;
+  }
+
+  .nics-column {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  [class*="col-"]{ /*smaller margins for mobile*/
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.ip {
+  padding-bottom: 3px;
+}
+
+.nics-title {
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 /* for NicEditor */

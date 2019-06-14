@@ -176,7 +176,7 @@ class NicsCard extends React.Component {
             }
             { nicList.length > 0 && nicList.map(nic =>
               <Row key={nic.id} id={`${idPrefix}-${nic.name}`}>
-                <Col style={{ display: 'block' }}>
+                <Col className={style['nics-column']}>
                   <NicListItem
                     idPrefix={`${idPrefix}-${nic.name}`}
                     nic={nic}
